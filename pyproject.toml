@@ -1,0 +1,14 @@
+[project]
+name = "notemate"
+version = "0.1.0"
+description = "A local AI notes assistant powered by Pydantic AI and Ollama"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["pydantic-ai>=2.43,<3", "python-dotenv>=1.2,<2"]
+
+[project.scripts]
+notemate = "notemate.agent:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14"]
+build-backend = "uv_build"
