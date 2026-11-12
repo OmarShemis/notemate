@@ -1,5 +1,7 @@
 # NoteMate - Local AI Notes Assistant
 
+[![Tests](https://github.com/OmarShemis/notemate/actions/workflows/tests.yml/badge.svg)](https://github.com/OmarShemis/notemate/actions/workflows/tests.yml)
+
 A command-line assistant built with Pydantic AI and Ollama. It can save/read local notes, tell the current time and perform bounded arithmetic through tools. Conversation history is kept for the current session.
 
 ## Setup
@@ -29,3 +31,7 @@ uv build
 ## Data and limitations
 
 Notes and `.env` files are excluded from version control. Existing notes in an older location are not moved automatically; set `NOTEMATE_NOTES_FILE` to that file to keep using them. With the default endpoint inference stays local; changing the endpoint can send prompts/notes to that provider. Model downloads require network access. This is a learning project; model tool selection and answer quality depend on the chosen model. Each request is capped at 15 model requests.
+
+## Architecture and verification
+
+[Architecture](docs/architecture.md) · [MIT licence](LICENSE). Unit tests and CI are reproducible with the commands above. Live API/model quality requires separate evaluation.
