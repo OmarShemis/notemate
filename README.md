@@ -1,4 +1,8 @@
-# NoteMate - Local AI Notes Assistant
+![NoteMate — Local AI. Practical tools. Persistent notes.](assets/header.svg)
+
+[← Omar’s portfolio](https://github.com/OmarShemis) · [Architecture](docs/architecture.md) · [MIT license](LICENSE)
+
+# NoteMate
 
 [![Tests](https://github.com/OmarShemis/notemate/actions/workflows/tests.yml/badge.svg)](https://github.com/OmarShemis/notemate/actions/workflows/tests.yml)
 
@@ -35,3 +39,7 @@ Notes and `.env` files are excluded from version control. Existing notes in an o
 ## Architecture and verification
 
 [Architecture](docs/architecture.md) · [MIT licence](LICENSE). Unit tests and CI are reproducible with the commands above. Live API/model quality requires separate evaluation.
+
+---
+
+Built by [Omar Shemis](https://github.com/OmarShemis) · [Explore more projects](https://github.com/OmarShemis?tab=repositories)
